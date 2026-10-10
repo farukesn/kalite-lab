@@ -6,4 +6,4 @@ def ortalama(notlar: list[float]) -> float:
 
 
 if __name__ == "__main__":
-    print(ortalama([70, 85, 90]))
+        print(f"Ortalama: {ortalama([70, 85, 90]):.2f}")
