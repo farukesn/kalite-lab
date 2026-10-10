@@ -1,0 +1,9 @@
+def ortalama(notlar: list[float]) -> float:
+    """Not listesinin aritmetik ortalamasını döndürür."""
+    if not notlar:
+        raise ValueError("Not listesi boş olamaz")
+    return sum(notlar) / len(notlar)
+
+
+if __name__ == "__main__":
+    print(ortalama([70, 85, 90]))
